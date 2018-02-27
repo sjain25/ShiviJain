@@ -382,14 +382,3 @@ def answer_question(question_string=None):
 
     else:
         print("I don't know")
-
-    return ''
-
-#print(answer_question('who has dog?'))
-#print(answer_question('who is flying to Japan?'))
-#print(answer_question('does Bob like Sally?'))
-#print(answer_question('when is Sally traveling to Mexico?'))
-#print(answer_question('who likes Joe?'))
-#print(answer_question('who does Joe like?'))
-#print(answer_question("what's the name of Joe's cat?"))
-#print(answer_question("what's my name?"))
