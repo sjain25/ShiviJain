@@ -15,7 +15,7 @@ normal_delay_2 = random.normalvariate(5, 0.5)
 
 
 def reset_driver():
-    driver = webdriver.Chrome(executable_path = r'C:\Users\shivi\Downloads\chromedriver_win32\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path = 'chromedriver.exe')
     driver.get('http://mlb.mlb.com/stats/')
     return driver
 
